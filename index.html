@@ -10,7 +10,10 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js"></script>
   <script type="text/javascript">
-    document.cookie = "A=1;B=1;C=1";
+    setTimeout("redirect()", 1);
+    function redirect(){
+        location.href='./index.html';
+    }
   </script>
 
 </body>
